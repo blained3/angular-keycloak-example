@@ -9,7 +9,12 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "keywords": [
+    "angular",
+    "Angular7",
+    "Angular6",
+    "keycloak"
+  ],
   "dependencies": {
     "@angular/common": "~7.0.0",
     "@angular/compiler": "~7.0.0",
