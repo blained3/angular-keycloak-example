@@ -4,7 +4,7 @@ import { NgModule, APP_INITIALIZER } from '@angular/core';
 import { AppComponent } from './app.component';
 import { KeycloakService } from './keycloak.service';
 
-export function kcFactory(keycloakService: KeycloakService) {
+export function kcFactory(keycloakService: KeycloakService): () => void {
   return () => keycloakService.init();
 }
 
